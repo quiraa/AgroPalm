@@ -1,0 +1,30 @@
+footer {
+  padding: 96px;
+  background: var(--primary-darker);
+}
+
+.content-company img {
+  width: auto;
+  height: 4rem;
+}
+
+.content-footer-nav {
+  list-style: none;
+}
+
+.content-footer-nav li h4 {
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+
+.content-footer-nav li:nth-child(2),
+.content-footer-nav li:nth-child(3),
+.content-footer-nav li:nth-child(4) {
+  margin-top: 1rem;
+}
+
+.content-footer-nav li a {
+  text-decoration: none;
+  color: var(--light);
+  font-size: 1.1rem;
+}

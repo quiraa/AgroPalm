@@ -1,0 +1,55 @@
+header .navigation-bar {
+  background-color: transparent;
+  transition: 0.35s;
+  z-index: 99;
+}
+
+header.sticky .navigation-bar {
+  background-color: #454545;
+  padding: 2%;
+}
+
+.navigation-icon a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.navigation-icon a img {
+  width: 40px;
+  height: auto;
+  margin-right: 1.5rem;
+}
+
+.navigation-icon a h1 {
+  margin: 0;
+  padding: 0;
+  color: var(--light);
+}
+
+.navigation-icon a h1 span {
+  color: var(--primary);
+}
+
+.ul-navigation-bar-nav {
+  margin: 0;
+  padding: 0;
+}
+
+.ul-navigation-bar-nav li {
+  display: inline-block;
+  list-style: none;
+  margin: 0 10px;
+}
+
+.ul-navigation-bar-nav li a {
+  font-weight: 500;
+  transition: 0.35s;
+  text-decoration: none;
+  color: var(--light);
+}
+
+.ul-navigation-bar-nav li a:hover {
+  transition: 0.35s;
+  color: var(--primary);
+}
